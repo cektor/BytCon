@@ -2,61 +2,82 @@
     <img src="https://raw.githubusercontent.com/pedromxavier/flag-badges/main/badges/TR.svg" alt="made in TR">
 </a>
 
-# MB-GB-TB-Converter
+# BytCon
+BytCon (Byte Converter), between MB, GB and TB units is a tool that allows you to make easy conversions. Cross Platform
 
-Computer Unit Converter MB-GB-TB Conversion Processes are Written in Python Language. Works Cross Platform (Windows-MacOS-Linux) PyQt6 Library is used.
+<h1 align="center">BytCon Logo</h1>
 
+<p align="center">
+  <img src="bytconlo" alt="BytCon Logo" width="150" height="150">
+</p>
 
+----------------------------------
 
+# Linux Screenshot
+![Linux(pardus)](screenshot/bytcon_linux.png)  
+
+# Windows Screenshot
+![Windows(11)](screenshot/bytcon_windows.png) 
+
+--------------------
 Install Git Clone and Python3
 
-Github Package Must Be Installed On Your Device.
+Github Package Must Be Installed On Your Device..
+
+git
 ```bash
 sudo apt install git -y
 ```
 
+Python3
 ```bash
 sudo apt install python3 -y 
 
 ```
 
+pip
+```bash
+sudo apt install python3-pip
+
+```
+
 # Required Libraries
 
-PyQt6
+PyQt5
 ```bash
-pip install PyQt6
+pip install PyQt5
 ```
-pyttsx3
+PyQt5-sip
 ```bash
-pip install pyttsx3
-```
-matplotlib
-```bash
-pip install matplotlib
+pip install PyQt5 PyQt5-sip
 ```
 
+PyQt5-tools
+```bash
+pip install PyQt5-tools
+```
 
+Required Libraries for Debian/Ubuntu
+```bash
+sudo apt-get install python3-pyqt5
+sudo apt-get install qttools5-dev-tools
+```
 
 ----------------------------------
-https://fatihonder.org.tr/python-ile-mb-gb-tb-cevirici-yapimi/
+
 
 # Installation
-Install MB-GB-TB-Converter
+Install BytCon
 
 ```bash
-sudo git clone https://github.com/cektor/MB-GB-TB-Converter.git
+sudo git clone https://github.com/cektor/BytCon.git
 ```
 ```bash
-cd MB-GB-TB-Converter/
+cd BytCon
 ```
 
 ```bash
-python bytsconvert.py
-```
-or
-
-```bash
-python3 bytsconvert.py
+python3 bytcon.py
 
 ```
 
@@ -68,29 +89,31 @@ pip install pyinstaller
 
 Linux Terminal 
 ```bash
-pyinstaller --onefile --windowed bytsconvert.py
+pytohn3 -m pyinstaller --onefile --windowed bytcon.py
 ```
 
 Windows VSCode Terminal 
 ```bash
-pyinstaller --onefile --noconsole bytsconvert.py
+pyinstaller --onefile --noconsole bytcon.py
 ```
 
 MacOS VSCode Terminal 
 ```bash
-pyinstaller --onefile --noconsole bytsconvert.py
+pyinstaller --onefile --noconsole bytcon.py
 ```
 
-# To run directly on Windows or Linux
-Download and Run According to Your Operating System from the Link
-
-https://github.com/cektor/MB-GB-TB-Converter/releases/tag/v1.0
+# To install directly on Windows or Linux
 
 
-# Linux Screenshot
+Linux (based debian) Terminal: Linux (debian based distributions) To install directly from Terminal.
+```bash
+wget -O Setup_Linux64.deb https://github.com/cektor/BytCon/releases/download/1.00/Setup_Linux64.deb && sudo apt install ./Setup_Linux64.deb && sudo apt-get install -f -y
+```
 
-![Demo](linux_screenshotv2.png) 
+Windows Installer CMD (PowerShell): To Install from Windows CMD with Direct Connection.
+```bash
+powershell -Command "Invoke-WebRequest -Uri 'https://github.com/cektor/BytCon/releases/download/1.00/Setup_Win64.exe' -OutFile 'Setup_Win64.exe'" && start /wait Setup_Win64.exe
+```
 
-# Windows Screenshot
+Release Page: https://github.com/cektor/BytCon/releases/tag/1.00
 
-![Demo](windows_screenshotv2.png) 
