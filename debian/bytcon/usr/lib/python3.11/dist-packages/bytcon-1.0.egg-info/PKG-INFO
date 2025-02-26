@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: bytcon
+Version: 1.0
+Summary: BytCon (Byte Converter), between MB, GB and TB units is a tool that allows you to make easy conversions.
+Home-page: https://github.com/cektor/BytCon
+Author: Fatih Önder
+Author-email: fatih@algyazilim.com
+License-File: LICENSE

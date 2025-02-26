@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0.2
+Name=BytCon
+Comment=BytCon (Byte Converter), between MB, GB and TB units is a tool that allows you to make easy conversions.
+Exec=python3 /usr/bin/bytcon.py
+Icon=/usr/share/icons/hicolor/48x48/apps/bytconlo.png
+Terminal=false
+Type=Application
+Categories=Graphics;Utility;
+
+Name[tr_TR]=BytCon
+

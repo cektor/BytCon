@@ -1,0 +1,11 @@
+LICENSE
+README.md
+bytcon.desktop
+bytconlo.png
+setup.py
+bytcon.egg-info/PKG-INFO
+bytcon.egg-info/SOURCES.txt
+bytcon.egg-info/dependency_links.txt
+bytcon.egg-info/entry_points.txt
+bytcon.egg-info/requires.txt
+bytcon.egg-info/top_level.txt

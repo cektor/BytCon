@@ -1,0 +1,4 @@
+#!/bin/bash
+bytcon.py usr/bin/
+bytcon.desktop usr/share/applications/
+debian/bytconlo.png /usr/share/icons/hicolor/48x48/apps/
