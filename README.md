@@ -8,7 +8,7 @@ BytCon (Byte Converter), between MB, GB and TB units is a tool that allows you t
 <h1 align="center">BytCon Logo</h1>
 
 <p align="center">
-  <img src="bytconlo" alt="BytCon Logo" width="150" height="150">
+  <img src="bytconlo.png" alt="BytCon Logo" width="150" height="150">
 </p>
 
 ----------------------------------
